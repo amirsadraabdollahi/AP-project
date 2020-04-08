@@ -3,6 +3,7 @@ package model;
 import java.util.ArrayList;
 
 public class Buyer extends User {
+    //TODO
     private ArrayList<Product> cart;
 
     public Buyer(String nickName, String firstName, String lastName, String email, String phoneNumber, String password) {
